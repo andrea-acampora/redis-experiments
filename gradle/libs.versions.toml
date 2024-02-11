@@ -1,0 +1,14 @@
+[versions]
+
+[libraries]
+reactivex-java = { module = "io.reactivex.rxjava3:rxjava", version = "3.1.8" }
+jackson = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-xml", version = "2.16.0" }
+lettuce = { module = "io.lettuce:lettuce-core", version = "6.3.1.RELEASE"}
+junit = { module = "org.junit.jupiter:junit-jupiter-engine", version = "5.10.1" }
+
+[bundles]
+testing = [
+    "junit",
+]
+
+[plugins]
